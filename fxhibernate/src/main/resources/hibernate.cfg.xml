@@ -8,10 +8,10 @@
 		<property name="hibernate.connection.password">Samifatima1</property>
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/neptuno?serverTimezone=UTC</property>
 		<property name="hibernate.connection.username">sami</property>
-		<property name="hibernate.default_schema">ProyectoHibernate</property>
+		<property name="hibernate.default_schema">neptuno</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-<!-- 		<property name="hibernate.hbm2ddl.auto">create</property>
- -->		<property name="hibernate.show_sql">true</property>
-<
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.show_sql">true</property>
+		<mapping resource="control/Username.hbm.xml" />
 	</session-factory>
 </hibernate-configuration>
